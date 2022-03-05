@@ -1,0 +1,640 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ===== common responsive start ===== */
+    .common_h3 {
+        font-size: 16px;
+    }
+    /* banner part start */
+    #banner_part .home_icon {
+        top: auto;
+        right: auto;
+        bottom: 23px;
+        left: 42%;
+    }
+    #banner_part .banner_slider .slick-dots {
+        top: auto;
+        right: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner_part .banner_slider .slick-dots li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .slick-dots button {
+        margin-top: 0;
+    }
+
+    /* ===== about part ===== */
+    #about_part .item_2 img {
+        width: 100%;
+    }
+    /* ===== pricing part start */
+    #pricing_part .pricing_item .pricing h2 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ===== common part ===== */
+    .common_h3 {
+        font-size: 16px;
+    }
+    .common_heading {
+        font-size: 20px;
+    }
+    /* ===== menu part start ===== */
+    #menu_part .navbar-brand img{
+        height: 42px;
+    }
+    #menu_part .navbar-nav .nav-link {
+        margin-left: 25px;
+    }
+
+    /* ===== banner part start ===== */
+    #banner_part .banner {
+        padding-top: 200px;
+    }
+    #banner_part .banner_slider .slick-dots {
+        top: auto;
+        right: auto;
+        transform: translatex(-50%);
+        left: 50%;
+        bottom: 0;
+        padding-left: 0;
+    }
+
+    #banner_part .banner_slider .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #banner_part .home_icon {
+        display: none;
+    }
+
+    /* ===== feature part start ===== */
+    #feature_part .details .image {
+        display: none;
+    }
+    #feature_part .details .text {
+        text-align: left;
+    }
+    #feature_part .btn_part button::after {
+        bottom: 5px;
+    }
+
+    /* ===== pricing part start */
+    #pricing_part .pricing_item {
+        margin-bottom: 30px;
+    }
+
+    #pricing_part .pricing_item .pricing_feature {
+        padding-bottom: 55px;
+        margin-bottom: -45px;
+    }
+
+    /* ===== team part start ===== */
+    #team_part .team_item .text {
+        padding: 33px 0;
+    }
+    #team_part .team_item .text p {
+        padding: 0 10px;
+    }
+    .social_icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #team_part .team_item .text h4 {
+        font-size: 12px;
+    }
+
+    /* ===== footer part start */
+    footer .footer_text img{
+        height: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    /* =============== common class responsive start ================ */
+    
+
+    .common_heading {
+        font-size: 18px;
+    }
+
+    .common_h3 {
+        font-size: 14px;
+    }
+    .common_pera {
+        font-size: 12px;
+    }
+    .common_icon {
+        font-size: 25px;
+    }
+
+    /* =============== menu part start ================ */
+    #menu_part {
+        top: 25px;
+    }
+
+    #menu_part .navbar-brand img {
+        width: 90%;
+    }
+
+    #menu_part .navbar-toggler {
+        padding: 0;
+        font-size: 30px;
+        line-height: 35px;
+        color: var(--brand);
+    }
+
+    #menu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #menu_part ul {
+        background: #000;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #menu_part ul li {
+        text-align: center;
+    }
+
+    #menu_part .navbar-nav .nav-link {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    #menu_part .navbar-nav .menu_btn {
+        margin-top: 10px;
+    }
+
+    /* =============== banner_part start ================ */
+    #banner_part .banner {
+        padding-top: 160px;
+        padding-bottom: 120px;
+        text-align: left;
+    }
+
+    #banner_part .banner_content {
+        display: block;
+    }
+
+    #banner_part .banner_content h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    #banner_part .banner_content h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    #banner_part .banner_content h2::after {
+        left: 0;
+    }
+
+    #banner_part .banner_content p {
+        margin-bottom: 40px;
+        width: auto;
+    }
+
+
+    #banner_part .banner_content a {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    #banner_part .banner_content a span {
+        font-size: 16px;
+    }
+
+    #banner_part .banner_slider .slick-dots {
+        top: auto;
+        right: auto;
+        transform: translatex(-50%);
+        left: 50%;
+        bottom: 0;
+        padding-left: 0;
+    }
+
+    #banner_part .banner_slider .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #banner_part .home_icon {
+        display: none;
+    }
+
+    /* =============== about_part start ================ */
+    #about_part {
+        padding: 50px 0;
+    }
+
+    #about_part .item_2 {
+        text-align: center;
+        margin-top: 15px;
+    }
+    #about_part .item_2 img {
+        width: 90%;
+    }
+
+    /* =============== feature_part start ================ */
+    #feature_part .details .image {
+        display: none;
+    }
+    #feature_part .btn_part p {
+        padding-left: 36px;
+    }
+    #feature_part .details .text {
+        text-align: left;
+    }
+    #feature_part .btn_part button::after {
+        bottom: 5px;
+    }
+
+    /* =============== screenshot_part start ================ */
+    #screenshot_part {
+        padding-top: 50px;
+    }
+
+    #screenshot_part .screen_slider .slick-track {
+        margin: 20px 0;
+    }
+
+    /* =============== video_part start ================ */
+    #video_part .heading_top {
+        margin-top: 50px;
+    }
+
+    #video_part .video .video_overlay a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border: 3px solid #fff;
+        font-size: 30px;
+    }
+
+    /* =============== pricing_part start ================ */
+    #pricing_part {
+        padding-top: 50px;
+    }
+
+    #pricing_part .pricing_item {
+        margin-bottom: 30px;
+    }
+
+    #pricing_part .pricing_item .pricing_feature {
+        padding-bottom: 50px;
+        margin-bottom: -40px;
+    }
+
+    #pricing_part .pricing_item .pricing h2 {
+        font-size: 30px;
+    }
+    #pricing_part .pricing_item .pricing_feature li {
+        font-size: 12px;
+    }
+    #pricing_part .pricing_item .pricing_btn {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+
+    /* =============== team_part start ================ */
+    #team_part {
+        padding: 50px 0;
+    }
+
+    #team_part .heading_top img {
+        margin-bottom: 50px;
+    }
+
+    #team_part .team_item {
+        margin-bottom: 0;
+    }
+
+    #team_part .team_item .image .team_overlay {
+        background: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+    }
+
+    #team_part .team_item:hover .image {
+        top: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #team_part .team_item .text {
+        position: relative;
+        bottom: 20px;
+    }
+
+    #team_part .team_item:hover .text {
+        bottom: 20px;
+    }
+
+    /* =============== feedback_part start ================ */
+    #feedback_part .feedback {
+        padding: 20px 0;
+    }
+
+    #feedback_part .feedback_text {
+        padding: 10px 10px 10px 10px;
+        border-radius: 15px;
+    }
+
+    #feedback_part .feedback_text .rating {
+        font-size: 12px;
+    }
+
+    /* =============== contact_part start ================ */
+    #contact_part .form_group .form_control {
+        font-size: 14px;
+    }
+    #contact_part .form_group textarea {
+        height: 100px;
+    }
+
+    #contact_part .submit_btn {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    #contact_part {
+        padding: 50px 0;
+    }
+    
+
+    /* =============== footer_text start ================ */
+    .footer_text img {
+        width: 30%;
+    }
+
+    .social_icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+
+    /* =============== common class responsive start ================ */
+    .common_icon {
+        font-size: 24px;
+        left: 10px;
+    }
+
+    .common_heading {
+        font-size: 18px;
+    }
+
+    .common_h3 {
+        font-size: 16px;
+    }
+
+    /* =============== menu part start ================ */
+    #menu_part {
+        top: 25px;
+    }
+
+    #menu_part .navbar-brand img {
+        width: 50%;
+    }
+
+    #menu_part .navbar-toggler {
+        padding: 0;
+        font-size: 25px;
+        line-height: 35px;
+        color: var(--brand);
+    }
+
+    #menu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #menu_part ul {
+        background: #000;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #menu_part ul li {
+        text-align: center;
+    }
+
+    #menu_part .navbar-nav .nav-link {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    #menu_part .navbar-nav .menu_btn {
+        margin-top: 10px;
+    }
+
+    /* =============== banner_part start ================ */
+    #banner_part .banner {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    #banner_part .banner_content {
+        display: block;
+    }
+
+    #banner_part .banner_content h1 {
+        font-size: 40px;
+    }
+
+    #banner_part .banner_content h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    #banner_part .banner_content h2::after {
+        left: 0;
+    }
+
+    #banner_part .banner_content p {
+        margin-bottom: 40px;
+        width: auto;
+    }
+
+
+    #banner_part .banner_content a {
+        font-size: 12px;
+        padding: 7px;
+        padding-left: 35px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    #banner_part .banner_content a span {
+        font-size: 15px;
+    }
+
+    #banner_part .banner_slider .slick-dots {
+        top: auto;
+        right: auto;
+        transform: translatex(-50%);
+        left: 50%;
+        bottom: 0;
+        padding-left: 0;
+    }
+
+    #banner_part .banner_slider .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #banner_part .home_icon {
+        display: none;
+    }
+
+    /* =============== about_part start ================ */
+    #about_part {
+        padding: 50px 0;
+    }
+
+    #about_part .item_2 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* =============== about_part start ================ */
+    #feature_part .details .image {
+        display: none;
+    }
+
+    #feature_part .details .text {
+        text-align: left;
+    }
+
+    /* =============== screenshot_part start ================ */
+    #screenshot_part {
+        padding-top: 50px;
+    }
+
+    #screenshot_part .screen_slider .slick-track {
+        margin: 20px 0;
+    }
+
+    /* =============== screenshot_part start ================ */
+    #video_part .heading_top {
+        margin-top: 50px;
+    }
+
+    #video_part .video .video_overlay a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border: 3px solid #fff;
+        font-size: 30px;
+    }
+
+    /* =============== pricing_part start ================ */
+    #pricing_part {
+        padding-top: 50px;
+    }
+
+    #pricing_part .pricing_item {
+        margin-bottom: 30px;
+    }
+
+    #pricing_part .pricing_item .pricing_feature {
+        padding-bottom: 70px;
+        margin-bottom: -53px;
+    }
+
+    #pricing_part .pricing_item .pricing h2 {
+        font-size: 35px;
+    }
+
+    /* =============== team_part start ================ */
+    #team_part {
+        padding: 50px 0;
+    }
+
+    #team_part .heading_top img {
+        margin-bottom: 50px;
+    }
+
+    #team_part .team_item {
+        margin-bottom: 0;
+    }
+
+    #team_part .team_item .image .team_overlay {
+        background: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+    }
+
+    #team_part .team_item:hover .image {
+        top: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #team_part .team_item .text {
+        position: relative;
+        bottom: 20px;
+    }
+
+    #team_part .team_item:hover .text {
+        bottom: 20px;
+    }
+
+    /* =============== feedback_part start ================ */
+    #feedback_part .feedback {
+        padding: 20px 0;
+    }
+
+    #feedback_part .feedback_text {
+        padding: 10px 10px 10px 10px;
+        border-radius: 15px;
+    }
+
+    #feedback_part .feedback_text .rating {
+        font-size: 12px;
+    }
+
+    /* =============== contact_part start ================ */
+    #contact_part .form_group textarea {
+        height: 100px;
+    }
+
+    #contact_part .submit_btn {
+        font-size: 16px;
+    }
+
+    #contact_part {
+        padding: 50px 0;
+    }
+
+    /* =============== footer_text start ================ */
+    .footer_text img {
+        width: 50%;
+    }
+
+    .social_icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+
+}
